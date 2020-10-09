@@ -10,10 +10,9 @@
     <link
       type="text/css"
       rel="stylesheet"
-      href="css/materialize.min.css"
+      href="css/materialize.css"
       media="screen,projection"
     />
-
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
@@ -21,13 +20,70 @@
   </head>
 
   <body>
-    <h1>Hello world</h1>
-    <p class="red-text text-lighten-5">
-      Realmente acho a humanidade uma merda. Um dia acharei alguém que valha a
-      pena e que me trate como a deusa que sou?
-    </p>
-    <button class="btn waves-effect waves-light">fuck you, fuck u all</button>
+    <!--Floating Action Button-->
+    <div class="fixed-action-btn">
+      <a class="btn-floating indigo darken-4">
+        <i class="material-icons">format_quote</i>
+      </a>
+      <ul>
+        <li>
+          <a class="btn-floating btn-small lime darken-4">
+            <i class="material-icons">star</i>
+          </a>
+        </li>
+        <li>
+          <a class="btn-floating btn-small brown darken-4">
+            <i class="material-icons">format_quote</i>
+          </a>
+        </li>
+        <li>
+          <a class="btn-floating btn-small deep-orange darken-4">
+            <i class="material-icons">insert_chart</i>
+          </a>
+        </li>
+        <li>
+          <a class="btn-floating btn-small orange darken-4">
+            <i class="material-icons">timeline</i>
+          </a>
+        </li>
+        <li>
+          <a class="btn-floating btn-small yellow darken-4">
+            <i class="material-icons">backup</i>
+          </a>
+        </li>
+        <li>
+          <a class="btn-floating btn-small amber darken-4">
+            <i class="material-icons">build</i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="navbar-fixed">
+      <nav class="grey darken-4">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#home" class="left brand-logo">mrcs-adv</a>
+
+            <a href="#" data-activates="mobile-nav" class="button-collapse">
+              <i class="right material-icons">menu</i>
+            </a>
+
+            <ul id="navbar-itens" class="hide-on-med-and-down right">
+              <li><a href="#home">Início</a></li>
+              <li><a href="#">Sobre</a></li>
+              <li><a href="#">Contatos</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
     <!--JavaScript at end of body for optimized loading-->
-    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.9.0rc1.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <script
+      src="https://kit.fontawesome.com/4dc8af722e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
   </body>
 </html>
