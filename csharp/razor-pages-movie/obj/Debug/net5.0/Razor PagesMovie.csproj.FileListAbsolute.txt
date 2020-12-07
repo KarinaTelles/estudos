@@ -1,0 +1,40 @@
+D:\Usuario\Projetos\PostadosNoGit\razor-pages-start-exercise\Razor PagesMovie\bin\Debug\net5.0\appsettings.Development.json
+D:\Usuario\Projetos\PostadosNoGit\razor-pages-start-exercise\Razor PagesMovie\bin\Debug\net5.0\appsettings.json
+D:\Usuario\Projetos\PostadosNoGit\razor-pages-start-exercise\Razor PagesMovie\bin\Debug\net5.0\Razor PagesMovie.exe
+D:\Usuario\Projetos\PostadosNoGit\razor-pages-start-exercise\Razor PagesMovie\bin\Debug\net5.0\Razor PagesMovie.deps.json
+D:\Usuario\Projetos\PostadosNoGit\razor-pages-start-exercise\Razor PagesMovie\bin\Debug\net5.0\Razor PagesMovie.runtimeconfig.json
+D:\Usuario\Projetos\PostadosNoGit\razor-pages-start-exercise\Razor PagesMovie\bin\Debug\net5.0\Razor PagesMovie.runtimeconfig.dev.json
+D:\Usuario\Projetos\PostadosNoGit\razor-pages-start-exercise\Razor PagesMovie\bin\Debug\net5.0\Razor PagesMovie.dll
+D:\Usuario\Projetos\PostadosNoGit\razor-pages-start-exercise\Razor PagesMovie\bin\Debug\net5.0\ref\Razor PagesMovie.dll
+D:\Usuario\Projetos\PostadosNoGit\razor-pages-start-exercise\Razor PagesMovie\bin\Debug\net5.0\Razor PagesMovie.pdb
+D:\Usuario\Projetos\PostadosNoGit\razor-pages-start-exercise\Razor PagesMovie\bin\Debug\net5.0\Razor PagesMovie.Views.dll
+D:\Usuario\Projetos\PostadosNoGit\razor-pages-start-exercise\Razor PagesMovie\bin\Debug\net5.0\Razor PagesMovie.Views.pdb
+D:\Usuario\Projetos\PostadosNoGit\razor-pages-start-exercise\Razor PagesMovie\obj\Debug\net5.0\Razor PagesMovie.csprojAssemblyReference.cache
+D:\Usuario\Projetos\PostadosNoGit\razor-pages-start-exercise\Razor PagesMovie\obj\Debug\net5.0\Razor PagesMovie.GeneratedMSBuildEditorConfig.editorconfig
+D:\Usuario\Projetos\PostadosNoGit\razor-pages-start-exercise\Razor PagesMovie\obj\Debug\net5.0\Razor PagesMovie.AssemblyInfoInputs.cache
+D:\Usuario\Projetos\PostadosNoGit\razor-pages-start-exercise\Razor PagesMovie\obj\Debug\net5.0\Razor PagesMovie.AssemblyInfo.cs
+D:\Usuario\Projetos\PostadosNoGit\razor-pages-start-exercise\Razor PagesMovie\obj\Debug\net5.0\Razor PagesMovie.csproj.CoreCompileInputs.cache
+D:\Usuario\Projetos\PostadosNoGit\razor-pages-start-exercise\Razor PagesMovie\obj\Debug\net5.0\Razor PagesMovie.MvcApplicationPartsAssemblyInfo.cache
+D:\Usuario\Projetos\PostadosNoGit\razor-pages-start-exercise\Razor PagesMovie\obj\Debug\net5.0\Razor PagesMovie.RazorAssemblyInfo.cache
+D:\Usuario\Projetos\PostadosNoGit\razor-pages-start-exercise\Razor PagesMovie\obj\Debug\net5.0\Razor PagesMovie.RazorAssemblyInfo.cs
+D:\Usuario\Projetos\PostadosNoGit\razor-pages-start-exercise\Razor PagesMovie\obj\Debug\net5.0\staticwebassets\Razor PagesMovie.StaticWebAssets.Manifest.cache
+D:\Usuario\Projetos\PostadosNoGit\razor-pages-start-exercise\Razor PagesMovie\obj\Debug\net5.0\staticwebassets\Razor PagesMovie.StaticWebAssets.xml
+D:\Usuario\Projetos\PostadosNoGit\razor-pages-start-exercise\Razor PagesMovie\obj\Debug\net5.0\scopedcss\bundle\Razor PagesMovie.styles.css
+D:\Usuario\Projetos\PostadosNoGit\razor-pages-start-exercise\Razor PagesMovie\obj\Debug\net5.0\Razor PagesMovie.TagHelpers.input.cache
+D:\Usuario\Projetos\PostadosNoGit\razor-pages-start-exercise\Razor PagesMovie\obj\Debug\net5.0\Razor PagesMovie.TagHelpers.output.cache
+D:\Usuario\Projetos\PostadosNoGit\razor-pages-start-exercise\Razor PagesMovie\obj\Debug\net5.0\Razor PagesMovie.RazorCoreGenerate.cache
+D:\Usuario\Projetos\PostadosNoGit\razor-pages-start-exercise\Razor PagesMovie\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+D:\Usuario\Projetos\PostadosNoGit\razor-pages-start-exercise\Razor PagesMovie\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+D:\Usuario\Projetos\PostadosNoGit\razor-pages-start-exercise\Razor PagesMovie\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+D:\Usuario\Projetos\PostadosNoGit\razor-pages-start-exercise\Razor PagesMovie\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+D:\Usuario\Projetos\PostadosNoGit\razor-pages-start-exercise\Razor PagesMovie\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Usuario\Projetos\PostadosNoGit\razor-pages-start-exercise\Razor PagesMovie\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\Usuario\Projetos\PostadosNoGit\razor-pages-start-exercise\Razor PagesMovie\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+D:\Usuario\Projetos\PostadosNoGit\razor-pages-start-exercise\Razor PagesMovie\obj\Debug\net5.0\Razor PagesMovie.RazorTargetAssemblyInfo.cache
+D:\Usuario\Projetos\PostadosNoGit\razor-pages-start-exercise\Razor PagesMovie\obj\Debug\net5.0\Razor PagesMovie.RazorTargetAssemblyInfo.cs
+D:\Usuario\Projetos\PostadosNoGit\razor-pages-start-exercise\Razor PagesMovie\obj\Debug\net5.0\Razor PagesMovie.Views.pdb
+D:\Usuario\Projetos\PostadosNoGit\razor-pages-start-exercise\Razor PagesMovie\obj\Debug\net5.0\Razor PagesMovie.dll
+D:\Usuario\Projetos\PostadosNoGit\razor-pages-start-exercise\Razor PagesMovie\obj\Debug\net5.0\ref\Razor PagesMovie.dll
+D:\Usuario\Projetos\PostadosNoGit\razor-pages-start-exercise\Razor PagesMovie\obj\Debug\net5.0\Razor PagesMovie.pdb
+D:\Usuario\Projetos\PostadosNoGit\razor-pages-start-exercise\Razor PagesMovie\obj\Debug\net5.0\Razor PagesMovie.genruntimeconfig.cache
+D:\Usuario\Projetos\PostadosNoGit\razor-pages-start-exercise\Razor PagesMovie\obj\Debug\net5.0\Razor PagesMovie.csproj.CopyComplete
