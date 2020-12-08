@@ -8,6 +8,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using Razor_PagesMovie.Data;
 
 namespace Razor_PagesMovie
 {
@@ -24,6 +26,9 @@ namespace Razor_PagesMovie
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+
+            services.AddDbContext<Razor_PagesMovieContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("Razor_PagesMovieContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
