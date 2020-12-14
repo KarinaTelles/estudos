@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mur1LPE0vH6ZdgN/BBltUYF+DFKnxPvoo+4SiDLNhd1Jn6qwhS3Fk1vnDeKhKpyhNStbF8HuPUddJDNvxnEUlg==",
+  "dgSpecHash": "BHBHFtOXUpQTiyLbEMIoCMe9E6A2BqjXRBmEkX9j3oMsiiglvHFs/a5G8zHpMiv5ERpoVjDHitVTcT74gn0nqw==",
   "success": true,
-  "projectFilePath": "D:\\Usuario\\Projetos\\PostadosNoGit\\razor-pages-start-exercise\\Razor PagesMovie\\Razor PagesMovie.csproj",
+  "projectFilePath": "D:\\Usuario\\Projetos\\Git\\razor-pages-start-exercise\\Razor PagesMovie\\Razor PagesMovie.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

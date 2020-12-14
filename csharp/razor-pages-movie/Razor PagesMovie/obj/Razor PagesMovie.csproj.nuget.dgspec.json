@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Usuario\\Projetos\\PostadosNoGit\\razor-pages-start-exercise\\Razor PagesMovie\\Razor PagesMovie.csproj": {}
+    "D:\\Usuario\\Projetos\\Git\\razor-pages-start-exercise\\Razor PagesMovie\\Razor PagesMovie.csproj": {}
   },
   "projects": {
-    "D:\\Usuario\\Projetos\\PostadosNoGit\\razor-pages-start-exercise\\Razor PagesMovie\\Razor PagesMovie.csproj": {
+    "D:\\Usuario\\Projetos\\Git\\razor-pages-start-exercise\\Razor PagesMovie\\Razor PagesMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Usuario\\Projetos\\PostadosNoGit\\razor-pages-start-exercise\\Razor PagesMovie\\Razor PagesMovie.csproj",
+        "projectUniqueName": "D:\\Usuario\\Projetos\\Git\\razor-pages-start-exercise\\Razor PagesMovie\\Razor PagesMovie.csproj",
         "projectName": "Razor PagesMovie",
-        "projectPath": "D:\\Usuario\\Projetos\\PostadosNoGit\\razor-pages-start-exercise\\Razor PagesMovie\\Razor PagesMovie.csproj",
+        "projectPath": "D:\\Usuario\\Projetos\\Git\\razor-pages-start-exercise\\Razor PagesMovie\\Razor PagesMovie.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\Usuario\\Projetos\\PostadosNoGit\\razor-pages-start-exercise\\Razor PagesMovie\\obj\\",
+        "outputPath": "D:\\Usuario\\Projetos\\Git\\razor-pages-start-exercise\\Razor PagesMovie\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -77,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

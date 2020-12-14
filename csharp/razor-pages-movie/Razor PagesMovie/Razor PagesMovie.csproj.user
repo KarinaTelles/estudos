@@ -10,5 +10,6 @@
     <WebStackScaffolding_IsReferencingScriptLibrariesSelected>True</WebStackScaffolding_IsReferencingScriptLibrariesSelected>
     <WebStackScaffolding_LayoutPageFile />
     <WebStackScaffolding_DbContextTypeFullName>Razor_PagesMovie.Data.Razor_PagesMovieContext</WebStackScaffolding_DbContextTypeFullName>
+    <ShowAllFiles>false</ShowAllFiles>
   </PropertyGroup>
 </Project>
