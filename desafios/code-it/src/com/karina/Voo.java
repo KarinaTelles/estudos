@@ -6,15 +6,13 @@ import java.net.StandardSocketOptions;
 public class Voo {
     private String [] tripulacaoTecnica = {"Piloto", "Oficial 1", "Oficial 2"};
     private String [] tripulacaoCabine = {"Chefe de serviço de voo", "Comissária 1", "Comissária 2"};
-    /*Tripulação técnica*/
-    //0-corresponde ao Piloto, 1-corresponde ao Oficial 1, 2-Corresponde ao Oficial 2
-    private int [] tripulacaoTecnicaInt = {0, 1, 2};
-    //3-corresponde ao Chefe de serviço de voo, 4-corresponde a Comissária 1 e 5-corresponde a Comissária 2
-    private int [] tripulacaoCabineInt = {3, 4, 5};
 
-    public void SmartFortwo(String [] pessoas){
-        if(pessoas.length > 2) {
+    public void SmartFortwo(String [] pessoas, int motorista){
+        if(pessoas.length > 1) {
             System.out.println("Smart Fortwo cheio");
+        }
+        else if(motorista != 0 && motorista != 2){
+            System.out.println("Essa pessoa não deveria estar aqui!");
         }
         else{
             for (int i = 0; i <pessoas.length; i++){
@@ -22,5 +20,29 @@ public class Voo {
             }
         }
     }
-    //public void QuemEstaDirigindo()
+    //aparentemente o chefe de serviço de voo e o chefe de serviço de bordo é a mesma pessoa pois nos integrantes totais do voo ele não é citado
+    public void SmartForTwoApenasFuncionário(int motorista, int funcionário){
+        if (motorista == 0 && funcionário !=3){
+            System.out.println("Nenhum problema com essa viagem");
+        }
+        else if(motorista==2 &&funcionário!=1){
+            System.out.println("Nenhum problema com essa viagem");
+        }
+        else if(motorista!=0 || motorista!=2){
+            System.out.println("Essa viagem não pode acontecer");
+        }
+    }
+
+    public void QuemEstaDirigindoOTransporteDeTripulantes(int motorista){
+        if(motorista == 0){
+            System.out.println(tripulacaoTecnica[0] + " dirigindo!");
+        }
+        else if(motorista == 2){
+            System.out.println(tripulacaoCabine[0]+ " dirigindo!");
+        }
+        else{
+            System.out.println("Essa pessoa não pode dirigir esse veículo!!");
+        }
+    }
+
 }
