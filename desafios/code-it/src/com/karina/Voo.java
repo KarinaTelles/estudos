@@ -32,7 +32,14 @@ public class Voo {
             System.out.println("Essa viagem não pode acontecer");
         }
     }
-
+    public void SmartForTwoEspecial(int motorista, int passageiro){
+        if(motorista==5 && passageiro==6){
+            System.out.println("Nenhum problema com essa viagem");
+        }
+        else{
+            System.out.println("Presidiário tem que estar com o policial e não pode viajar sozinho");
+        }
+    }
     public void QuemEstaDirigindoOTransporteDeTripulantes(int motorista){
         if(motorista == 0){
             System.out.println(tripulacaoTecnica[0] + " dirigindo!");
@@ -43,6 +50,10 @@ public class Voo {
         else{
             System.out.println("Essa pessoa não pode dirigir esse veículo!!");
         }
+    }
+    public void QuantasViagens(int numeroPassageiros){
+        int resultado = numeroPassageiros/2;
+        System.out.println("Serão necessárias "+ resultado+ " viagens");
     }
 
 }

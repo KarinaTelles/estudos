@@ -17,6 +17,8 @@ public class Main {
 
     /*Passageiros*/
     //4-Passageiro
+    //5-Policial
+    //6-Presidiário
 
 	Voo voo = new Voo();
 
@@ -34,6 +36,8 @@ public class Main {
     voo.QuemEstaDirigindoOTransporteDeTripulantes(2);
 
     voo.SmartForTwoApenasFuncionário(2,3);
-
+    voo.SmartForTwoEspecial(5,6);
+    voo.SmartForTwoEspecial(1,2);
+    voo.QuantasViagens(8);
     }
 }
