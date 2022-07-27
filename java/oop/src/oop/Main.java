@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
 //        Bicicleta bikeAzulzinha = new Bicicleta(1,1,1);
-        Bicicleta bikeVazia = new Bicicleta();
-        bikeVazia.mudaACadencia(7);
+        Bicicleta bikeBase = new Bicicleta();
+        bikeBase.mudaACadencia(7);
     }
 }
