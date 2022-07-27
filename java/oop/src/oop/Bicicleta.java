@@ -22,7 +22,7 @@ public class Bicicleta {
         if (novaMarcha > 6){
             this.marcha = 6;
         }
-        else if (novaMarcha < 0){
+        else if (novaMarcha < 1){
             this.marcha = 1;
         }
         else{
