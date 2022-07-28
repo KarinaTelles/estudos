@@ -2,7 +2,7 @@ package oop;
 
 public class Main {
     public static void main(String[] args) {
-        Bicicleta bikeBase = new Bicicleta();
+        CerejaBicicletas bikeBase = new CerejaBicicletas();
         bikeBase.setMarcha(7);
         bikeBase.getMarcha();
         bikeBase.getVelocidade();

@@ -1,6 +1,6 @@
 package oop;
 
-public class BikeDeMontanha extends Bicicleta{
+public class BikeDeMontanha extends CerejaBicicletas {
     public int getMarcha() {
         return marcha;
     }

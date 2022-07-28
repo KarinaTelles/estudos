@@ -1,9 +1,9 @@
 package oop;
-public class Bicicleta {
+public class CerejaBicicletas {
     int cadencia = 0;
     int marcha = 0;
     int velocidade = 0;
-    public Bicicleta() {
+    public CerejaBicicletas() {
         this.cadencia = 0;
         this.marcha = 1;
         this.velocidade = 0;
