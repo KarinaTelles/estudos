@@ -10,5 +10,7 @@ public class Main {
         bikeBase.getVelocidade();
         bikeBase.aumentaAVelocidade(8);
         bikeBase.getVelocidade();
+        BikeDeMontanha bikeDeMontanha = new BikeDeMontanha();
+        bikeDeMontanha.setMarcha(8);
     }
 }
