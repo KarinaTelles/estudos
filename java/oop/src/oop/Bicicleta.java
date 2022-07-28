@@ -1,5 +1,4 @@
 package oop;
-
 public class Bicicleta {
     int cadencia = 0;
     int marcha = 0;
@@ -9,24 +8,49 @@ public class Bicicleta {
         this.marcha = 1;
         this.velocidade = 0;
     }
-//    public Bicicleta (int cadencia, int marcha, int velocidade)
-//    {
-//        this.cadencia = cadencia;
-//        this.marcha = marcha;
-//        this.velocidade = velocidade;
-//    }
-    public void mudaACadencia(int novaCadencia){
-        this.cadencia = novaCadencia;
+    public int getMarcha() {
+        return marcha;
     }
-    public void mudaMarcha(int novaMarcha){
+    public void setMarcha(int novaMarcha) {
+        mudaMarcha(novaMarcha);
+        this.marcha = marcha;
+    }
+    private int mudaMarcha(int novaMarcha){
         if (novaMarcha > 6){
-            this.marcha = 6;
+            novaMarcha = 6;
+            this.marcha = novaMarcha;
+            System.out.println("A marcha máxima é 6");
+            return novaMarcha;
         }
         else if (novaMarcha < 1){
-            this.marcha = 1;
+            novaMarcha = 1;
+            this.marcha = novaMarcha;
+            System.out.println("A marcha mínima é 1");
+            return novaMarcha;
         }
         else{
-            this.marcha = novaMarcha;
+            return novaMarcha;
         }
+    }
+    public int getCadencia() {
+        return cadencia;
+    }
+    public void setCadencia(int cadencia) {
+        this.cadencia = cadencia;
+    }
+
+    public int getVelocidade() {
+        return velocidade;
+    }
+    public void aumentaAVelocidade(int aumentoDeVelocidade){
+        this.velocidade = this.velocidade + aumentoDeVelocidade;
+    }
+    public void freia(int perdaDeVelocidade){
+        this.velocidade = this.velocidade - perdaDeVelocidade;
+    }
+    void imprimeValores() {
+        System.out.println("cadência:" +
+                this.cadencia + " velocidade:" +
+                this.velocidade + " marcha:" + this.marcha);
     }
 }
