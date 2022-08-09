@@ -8,7 +8,7 @@ public class BikeDeMontanha extends CerejaBicicletas {
         mudaMarcha(novaMarcha);
         this.marcha = marcha;
     }
-    private int mudaMarcha(int novaMarcha){
+    public int mudaMarcha(int novaMarcha){
         if (novaMarcha > 7){
             novaMarcha = 7;
             this.marcha = novaMarcha;

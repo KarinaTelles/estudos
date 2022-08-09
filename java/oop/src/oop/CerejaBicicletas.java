@@ -1,5 +1,5 @@
 package oop;
-public class CerejaBicicletas {
+public class CerejaBicicletas implements Bicicleta{
     int cadencia = 0;
     int marcha = 0;
     int velocidade = 0;
@@ -15,7 +15,7 @@ public class CerejaBicicletas {
         mudaMarcha(novaMarcha);
         this.marcha = marcha;
     }
-    private int mudaMarcha(int novaMarcha){
+    public int mudaMarcha(int novaMarcha){
         if (novaMarcha > 6){
             novaMarcha = 6;
             this.marcha = novaMarcha;
@@ -48,7 +48,7 @@ public class CerejaBicicletas {
     public void freia(int perdaDeVelocidade){
         this.velocidade = this.velocidade - perdaDeVelocidade;
     }
-    void imprimeValores() {
+    public void imprimeValores() {
         System.out.println("cadência:" +
                 this.cadencia + " velocidade:" +
                 this.velocidade + " marcha:" + this.marcha);
