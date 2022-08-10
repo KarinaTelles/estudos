@@ -1,6 +1,6 @@
 package oop;
 
-public interface Bicicleta {
+public interface BicicletaInterface {
     int getMarcha();
     void setMarcha(int novaMarcha);
     int mudaMarcha(int novaMarcha);

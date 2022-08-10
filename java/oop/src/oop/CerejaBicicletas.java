@@ -1,5 +1,5 @@
 package oop;
-public class CerejaBicicletas implements Bicicleta{
+public class CerejaBicicletas implements BicicletaInterface {
     int cadencia = 0;
     int marcha = 0;
     int velocidade = 0;
