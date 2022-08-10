@@ -18,13 +18,13 @@ public class CerejaBicicletas implements BicicletaInterface {
     public byte mudaMarcha(byte novaMarcha){
         if (novaMarcha > 6){
             novaMarcha = 6;
-            this.marcha = novaMarcha;
+            marcha = novaMarcha;
             System.out.println("A marcha máxima é 6");
             return novaMarcha;
         }
         else if (novaMarcha < 1){
             novaMarcha = 1;
-            this.marcha = novaMarcha;
+            marcha = novaMarcha;
             System.out.println("A marcha mínima é 1");
             return novaMarcha;
         }
@@ -50,7 +50,7 @@ public class CerejaBicicletas implements BicicletaInterface {
     }
     public void imprimeValores() {
         System.out.println("cadência:" +
-                this.cadencia + " velocidade:" +
-                this.velocidade + " marcha:" + this.marcha);
+                cadencia + " velocidade:" +
+                velocidade + " marcha:" + marcha);
     }
 }
