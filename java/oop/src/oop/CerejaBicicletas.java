@@ -1,6 +1,6 @@
 package oop;
 public class CerejaBicicletas implements BicicletaInterface {
-    int cadencia = 0;
+    byte cadencia = 0;
     int marcha = 0;
     int velocidade = 0;
     public CerejaBicicletas() {
@@ -32,10 +32,10 @@ public class CerejaBicicletas implements BicicletaInterface {
             return novaMarcha;
         }
     }
-    public int getCadencia() {
+    public byte getCadencia() {
         return cadencia;
     }
-    public void setCadencia(int cadencia) {
+    public void setCadencia(byte cadencia) {
         this.cadencia = cadencia;
     }
 
