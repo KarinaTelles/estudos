@@ -8,4 +8,8 @@ Exercício para treinar lógica e orientação a objetos.
 ## Anotações
 ### Tipos primitivos
 #### Byte
-Byte vai de -128 a 127 (inclusive).
+-128 a 127 (inclusive).
+#### Short
+-32,768 a 32,767 (inclusive).
+#### Int
+-23^1 and a maximum value of 231-1. 2<sup>3</sup>.
