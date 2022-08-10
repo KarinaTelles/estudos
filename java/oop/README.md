@@ -15,3 +15,5 @@ Exercício para treinar lógica e orientação a objetos.
 -2<sup>31</sup> a 2<sup>31</sup>-1 (inclusive).
 #### Long 
 -2<sup>63</sup> a 2<sup>63</sup> -1 (inclusive).
+
+<https://dev.java/learn/creating-primitive-type-variables-in-your-programs/>
