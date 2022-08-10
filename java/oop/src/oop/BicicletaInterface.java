@@ -1,9 +1,9 @@
 package oop;
 
 public interface BicicletaInterface {
-    int getMarcha();
-    void setMarcha(int novaMarcha);
-    int mudaMarcha(int novaMarcha);
+    byte getMarcha();
+    void setMarcha(byte novaMarcha);
+    byte mudaMarcha(byte novaMarcha);
     byte getCadencia();
     void setCadencia(byte cadencia);
     int getVelocidade();

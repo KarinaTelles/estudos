@@ -1,21 +1,21 @@
 package oop;
 public class CerejaBicicletas implements BicicletaInterface {
     byte cadencia = 0;
-    int marcha = 0;
+    byte marcha = 0;
     int velocidade = 0;
     public CerejaBicicletas() {
         this.cadencia = 0;
         this.marcha = 1;
         this.velocidade = 0;
     }
-    public int getMarcha() {
+    public byte getMarcha() {
         return marcha;
     }
-    public void setMarcha(int novaMarcha) {
+    public void setMarcha(byte novaMarcha) {
         mudaMarcha(novaMarcha);
         this.marcha = marcha;
     }
-    public int mudaMarcha(int novaMarcha){
+    public byte mudaMarcha(byte novaMarcha){
         if (novaMarcha > 6){
             novaMarcha = 6;
             this.marcha = novaMarcha;

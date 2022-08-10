@@ -1,14 +1,14 @@
 package oop;
 
 public class BikeDeMontanha extends CerejaBicicletas {
-    public int getMarcha() {
+    public byte getMarcha() {
         return marcha;
     }
-    public void setMarcha(int novaMarcha) {
+    public void setMarcha(byte novaMarcha) {
         mudaMarcha(novaMarcha);
         this.marcha = marcha;
     }
-    public int mudaMarcha(int novaMarcha){
+    public byte mudaMarcha(byte novaMarcha){
         if (novaMarcha > 7){
             novaMarcha = 7;
             this.marcha = novaMarcha;
