@@ -6,9 +6,9 @@ public class Main {
         bikeBase.setMarcha((byte) 7);
         bikeBase.getMarcha();
         bikeBase.getVelocidade();
-        bikeBase.aumentaAVelocidade(8);
+        bikeBase.aumentaAVelocidade((short) 8);
         bikeBase.getVelocidade();
-        bikeBase.aumentaAVelocidade(8);
+        bikeBase.aumentaAVelocidade((short) 8);
         bikeBase.getVelocidade();
         BikeDeMontanha bikeDeMontanha = new BikeDeMontanha();
         bikeDeMontanha.setMarcha((byte) 8);

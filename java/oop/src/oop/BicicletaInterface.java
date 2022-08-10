@@ -6,8 +6,8 @@ public interface BicicletaInterface {
     byte mudaMarcha(byte novaMarcha);
     byte getCadencia();
     void setCadencia(byte cadencia);
-    int getVelocidade();
-    void aumentaAVelocidade(int aumentoDeVelocidade);
-    void freia(int perdaDeVelocidade);
+    short getVelocidade();
+    void aumentaAVelocidade(short aumentoDeVelocidade);
+    void freia(short perdaDeVelocidade);
     void imprimeValores();
 }

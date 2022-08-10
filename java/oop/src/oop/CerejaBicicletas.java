@@ -2,7 +2,7 @@ package oop;
 public class CerejaBicicletas implements BicicletaInterface {
     byte cadencia = 0;
     byte marcha = 0;
-    int velocidade = 0;
+    short velocidade = 0;
     public CerejaBicicletas() {
         this.cadencia = 0;
         this.marcha = 1;
@@ -39,14 +39,14 @@ public class CerejaBicicletas implements BicicletaInterface {
         this.cadencia = cadencia;
     }
 
-    public int getVelocidade() {
+    public short getVelocidade() {
         return velocidade;
     }
-    public void aumentaAVelocidade(int aumentoDeVelocidade){
-        this.velocidade = this.velocidade + aumentoDeVelocidade;
+    public void aumentaAVelocidade(short aumentoDeVelocidade){
+        velocidade = (short)(velocidade + aumentoDeVelocidade);
     }
-    public void freia(int perdaDeVelocidade){
-        this.velocidade = this.velocidade - perdaDeVelocidade;
+    public void freia(short perdaDeVelocidade){
+        velocidade = (short)(velocidade - perdaDeVelocidade);
     }
     public void imprimeValores() {
         System.out.println("cadência:" +
