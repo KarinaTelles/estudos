@@ -11,25 +11,19 @@ public class CerejaBicicletas implements BicicletaInterface {
     public byte getMarcha() {
         return marcha;
     }
-    public void setMarcha(byte novaMarcha) {
-        mudaMarcha(novaMarcha);
-        this.marcha = marcha;
-    }
-    public byte mudaMarcha(byte novaMarcha){
+    public void setMarcha(byte novaMarcha){
         if (novaMarcha > 6){
             novaMarcha = 6;
             marcha = novaMarcha;
-            System.out.println("A marcha máxima é 6");
-            return novaMarcha;
+            System.out.println("Cereja Bicicletas: A marcha máxima é 6");
         }
         else if (novaMarcha < 1){
             novaMarcha = 1;
             marcha = novaMarcha;
-            System.out.println("A marcha mínima é 1");
-            return novaMarcha;
+            System.out.println("Cereja Bicicletas: A marcha mínima é 1");
         }
         else{
-            return novaMarcha;
+            marcha = novaMarcha;
         }
     }
     public byte getCadencia() {
@@ -49,8 +43,8 @@ public class CerejaBicicletas implements BicicletaInterface {
         velocidade = (short)(velocidade - perdaDeVelocidade);
     }
     public void imprimeValores() {
-        System.out.println("cadência:" +
-                cadencia + " velocidade:" +
-                velocidade + " marcha:" + marcha);
+        System.out.println("Cereja Bicicletas: Cadência: " +
+                cadencia + " Cereja Bicicletas: Velocidade: " +
+                velocidade + " Cereja Bicicletas: Marcha: " + marcha);
     }
 }

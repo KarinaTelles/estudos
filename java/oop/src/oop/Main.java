@@ -2,15 +2,17 @@ package oop;
 
 public class Main {
     public static void main(String[] args) {
-        CerejaBicicletas bikeBase = new CerejaBicicletas();
-        bikeBase.setMarcha((byte) 7);
-        bikeBase.getMarcha();
-        bikeBase.getVelocidade();
-        bikeBase.aumentaAVelocidade((short) 8);
-        bikeBase.getVelocidade();
-        bikeBase.aumentaAVelocidade((short) 8);
-        bikeBase.getVelocidade();
+        CerejaBicicletas cerejaBicicletas = new CerejaBicicletas();
+        cerejaBicicletas.setMarcha((byte) 7);
+        cerejaBicicletas.getMarcha();
+        cerejaBicicletas.getVelocidade();
+        cerejaBicicletas.aumentaAVelocidade((short) 8);
+        cerejaBicicletas.getVelocidade();
+        cerejaBicicletas.aumentaAVelocidade((short) 8);
+        cerejaBicicletas.getVelocidade();
         BikeDeMontanha bikeDeMontanha = new BikeDeMontanha();
         bikeDeMontanha.setMarcha((byte) 8);
+        cerejaBicicletas.imprimeValores();
+        bikeDeMontanha.imprimeValores();
     }
 }
