@@ -6,7 +6,7 @@ Exercício para treinar lógica e orientação a objetos.
 *Open JDK 18 version 18.0.2*
 
 ## Anotações
-### Tipos primitivos
+### Tipos primitivos numerais
 #### Byte
 -128 a 127 (inclusive).
 #### Short
