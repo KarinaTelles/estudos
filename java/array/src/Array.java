@@ -1,4 +1,5 @@
 public class Array {
+    int[] anArray;
     int[] anArrayOfInt;
     byte[] anArrayOfBytes;
     short[] anArrayOfShorts;
@@ -11,6 +12,11 @@ public class Array {
 
 
     public Array() {
+        int[] anArray = {
+                100, 200, 300,
+                400, 500, 600,
+                700, 800, 900, 1000
+        };
         anArrayOfInt = new int[10];
         anArrayOfBytes = new byte[10];
         anArrayOfShorts = new short[10];
