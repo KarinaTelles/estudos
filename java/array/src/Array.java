@@ -47,5 +47,6 @@ public class Array {
         System.out.println("Element at index 7: " + anArrayOfInt[7]);
         System.out.println("Element at index 8: " + anArrayOfInt[8]);
         System.out.println("Element at index 9: " + anArrayOfInt[9]);
+        System.out.println(anArray.length);
     }
 }
