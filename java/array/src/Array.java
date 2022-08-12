@@ -9,8 +9,7 @@ public class Array {
     boolean[] anArrayOfBooleans;
     char[] anArrayOfChars;
     String[] anArrayOfStrings;
-
-
+    String[][] names;
     public Array() {
         int[] anArray = {
                 100, 200, 300,
