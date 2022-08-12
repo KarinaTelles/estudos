@@ -60,5 +60,8 @@ public class Array {
                 "Marocchino", "Ristretto" };
         String [] copyTo = new String[7];
         System.arraycopy(copyFrom,2,copyTo,0,7);
+        for (String coffee: copyTo){
+            System.out.println(coffee);
+        }
     }
 }
