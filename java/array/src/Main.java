@@ -5,6 +5,5 @@ public class Main {
         generatorArrayInt.popular10ItensNoArrayDe1a10();
         generatorArrayInt.getAnArrayOf10Int();
         generatorArrayInt.popula10ItensNoArrayDe100a1000();
-        generatorArrayInt.impressaoBonitaDoArrayDe10();
     }
 }

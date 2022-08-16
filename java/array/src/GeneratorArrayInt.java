@@ -25,10 +25,4 @@ public class GeneratorArrayInt {
             anArrayOf100Int[index] = incremento+=100;
         }
     }
-    public void impressaoBonitaDoArrayDe10(){
-        for (int index = 0; index< anArrayOf10Int.length; index++) {
-            System.out.println("Element at index " + index +": "  + anArrayOf10Int[index]);
-        }
-        System.out.println(anArrayOf10Int.length);
-    }
 }
