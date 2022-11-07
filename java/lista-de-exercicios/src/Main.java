@@ -1,8 +1,7 @@
-import exercicios.dois.Menu;
+import exercicios.dois.SetMenuLayout;
 
 public class Main {
     public static void main(String[] args) {
-       Menu menu = new Menu();
-        System.out.println(menu.leEntradaMenuPrincipal());
+        System.out.println();
     }
 }
