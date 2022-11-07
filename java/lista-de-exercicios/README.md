@@ -1,6 +1,8 @@
 
 # Lista de exercícios (List of exercise)
-2)
+
+## 2
+
 Do a program to create a main menu. This main menu should have this three options:
 
 (MAIN MENU)
