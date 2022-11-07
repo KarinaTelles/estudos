@@ -7,22 +7,22 @@ Do a program to create a this menus:
 
 (MAIN MENU)
 
-1 - Aplicar pesquisa (Apply the research)
+>1 - Aplicar pesquisa (Apply the research)
 
-2 - Mostrar resultados (Show the results)
+>2 - Mostrar resultados (Show the results)
 
-9 - Fim (End)
+>9 - Fim (End)
 
 
 
 (MENU 2)
-1 - O vencedor será o time A (The winner will be team A)
+>1 - O vencedor será o time A (The winner will be team A)
 
-2 - O vencedor será o time B (The winner will be team B)
+>2 - O vencedor será o time B (The winner will be team B)
 
-3 - O resultado será um empate (It will be a draw)
+>3 - O resultado será um empate (It will be a draw)
 
-9 - Sair da votação (Go out from voting)
+>9 - Sair da votação (Go out from voting)
 
 
 1. In the first option of main menu, apply a research about the results of a game beetween team A and team B. 
