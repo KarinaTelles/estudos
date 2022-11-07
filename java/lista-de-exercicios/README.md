@@ -6,8 +6,11 @@
 Do a program to create a main menu. This main menu should have this three options:
 
 (MAIN MENU)
+
 1 - Aplicar pesquisa (Apply the research)
+
 2 - Mostrar resultados (Show the results)
+
 9 - Fim (End)
 
 In the first option, apply a research about the results of a game beetween team A and team B. The research is about who will gonna win the game that will happen in the next weekend. To the research, create a menu with this options: 
