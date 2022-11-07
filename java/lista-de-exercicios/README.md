@@ -3,7 +3,7 @@
 
 ### 2
 
-Do a program to create a main menu. This main menu should have this three options:
+Do a program to create a this menus:
 
 (MAIN MENU)
 
@@ -13,9 +13,7 @@ Do a program to create a main menu. This main menu should have this three option
 
 9 - Fim (End)
 
-In the first option, apply a research about the results of a game beetween team A and team B. The research is about who will gonna win the game that will happen in the next weekend. 
 
-To the research, create a menu with this options: 
 
 (MENU 2)
 1 - O vencedor será o time A (The winner will be team A)
@@ -27,17 +25,13 @@ To the research, create a menu with this options:
 9 - Sair da votação (Go out from voting)
 
 
-The program should accept many people voting. 
-
-Sum the votes.
-
-Show an error message if the user choose the wrong option.
-
-When you get out from the voting, you should went back do main menu. 
-
-After showing the results from the voting, back to main menu.
-
-When you go out from main menu, show an ending message. When you go out from menu 2, back to main menu. 
-
-You must use **do while** and **switch case**. 
+1. In the first option of main menu, apply a research about the results of a game beetween team A and team B. 
+2. The research is about who will gonna win the game that will happen in the next weekend.  
+3. The program should accept many people voting. 
+4. Sum the votes. 
+5. Show an error message if the user choose the wrong option.
+6. When you get out from the voting on menu 2 you should back to main menu. 
+7. After showing the results from the voting, in the second option from main menu, back to the options of the main menu again. 
+8. When you go out from main menu, show an ending message. When you go out from menu 2, back to main menu. 
+9. You must use **do while** and **switch case**. 
 
