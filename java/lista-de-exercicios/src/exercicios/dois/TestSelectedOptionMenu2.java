@@ -1,6 +1,6 @@
 package exercicios.dois;
 
-public class testSelectedOptionMenu2 {
+public class TestSelectedOptionMenu2 {
     private int testSelectedOptionFromMenu2(int option) {
         int soma = 0;
         for(int timeA = 0;option != 1;timeA++){
