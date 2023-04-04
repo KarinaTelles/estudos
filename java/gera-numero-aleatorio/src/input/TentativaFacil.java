@@ -6,26 +6,26 @@ import java.util.Scanner;
 
 public class TentativaFacil {
     Scanner sc = new Scanner(System.in);
-    int i = 0;
+    int numeroChutado = 0;
     int numeroGerado = 0;
     NumeroAleatorio numeroAleatorio = new NumeroAleatorio();
 
     public void LeChute(){
         System.out.println("Digite um número:");
-        i = sc.nextInt();
-        imprimeNumeroChutado(i);
+        numeroChutado = sc.nextInt();
+        imprimeNumeroChutado(numeroChutado);
         geraNumero();
-        setNumeroChutado(i);
+        setNumeroChutado(numeroChutado);
         sc.close();
     }
     public void imprimeNumeroChutado(int i){
         System.out.println("NÚMERO CHUTADO: " + i);
     }
     public void setNumeroChutado(int i){
-        this.i = i;
+        this.numeroChutado = i;
     }
     public int getNumeroChutado(){
-        return i;
+        return numeroChutado;
     }
     public void geraNumero(){
         int salvaNumeroGerado = numeroAleatorio.geraNumeroAleatorioDeUmAMil();
@@ -36,10 +36,10 @@ public class TentativaFacil {
     }
     public void testaSeNumeroChutadoEhIgualAoGerado(){
         int i = getNumeroChutado();
-        int numeroGerado = pegaNumeroGerado();
+        int comparaNumeroGerado = pegaNumeroGerado();
         System.out.println("CHEGOU AQUI: " + i);
-        System.out.println("CHEGOU AQUI NUMERO GERADO: " + numeroGerado);
-        if(i == numeroGerado){
+        System.out.println("CHEGOU AQUI NUMERO GERADO: " + comparaNumeroGerado);
+        if(i == comparaNumeroGerado){
             System.out.println("ACERTOU O NÚMERO");
         }
         else{
