@@ -1,11 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Esse é o Screen Match");
-        System.out.println("Filme: Top Gun: Maverick");
+//        ConversorDeTemperatura conversorDeTemperatura = new ConversorDeTemperatura();
+//        conversorDeTemperatura.converteDeCelsiusParaFahrenheit(2);
+//        System.out.println(conversorDeTemperatura.converteDeCelsiusParaFahrenheit(2));
 
-        Conversao conversao = new Conversao();
-        conversao.CelsiusToFahrenheit(2);
-        System.out.println(conversao.CelsiusToFahrenheit(2));
-
+        AdivinhadorDeNumeroAleatorio adivinhador = new AdivinhadorDeNumeroAleatorio();
+        adivinhador.fazAdivinhacao();
     }
 }
