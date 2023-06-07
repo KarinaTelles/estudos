@@ -4,7 +4,9 @@ public class Main {
 //        conversorDeTemperatura.converteDeCelsiusParaFahrenheit(2);
 //        System.out.println(conversorDeTemperatura.converteDeCelsiusParaFahrenheit(2));
 
-        AdivinhadorDeNumeroAleatorio adivinhador = new AdivinhadorDeNumeroAleatorio();
-        adivinhador.fazAdivinhacao();
+//        AdivinhadorDeNumeroAleatorio adivinhador = new AdivinhadorDeNumeroAleatorio();
+//        adivinhador.fazAdivinhacao();
+
+
     }
 }
