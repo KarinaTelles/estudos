@@ -1,0 +1,15 @@
+<meta charset="UTF-8">
+<script>
+  function pula1Linha(){
+		document.write("<br></br>")
+	}
+  function calculaImc(peso, altura){
+    let imc = peso/(altura*altura);
+    return imc;
+  }
+  //let peso = 57;
+  //let altura = 1.60;
+  //let imc = peso/(altura*altura);
+  let imc = calculaImc(57, 1.60);
+  document.write("Imc: "+ Math.round(imc));
+</script>

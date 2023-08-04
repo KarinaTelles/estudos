@@ -1,10 +1,20 @@
 <meta charset="UTF-8">
 <h1>Texto puro </h1>
-	<p>A convenção que usaremos para criar nosso programa é adotar letras minúsculas e não usar acentos e, claro, usar a extensão .html.</p>
 
-	<p>Outro ponto importante é que toda alteração feita no arquivo .html deve ser salva e, além disso, o navegador precisa recarregar a página para que a última alteração do arquivo entre em vigor.</p>
-
-<script type="text/javascript">
+<script>
+	function pula1Linha(){
+		document.write("<br></br>")
+	}
+	function pula2Linha(){
+		document.write("<br></br><br></br>")
+	}
+	function pula3Linha(){
+		document.write("<br></br><br></br><br></br>")
+	}
+	function mostra(texto){
+		document.write(texto);
+		pula1Linha();
+	}
 	let ano = 2023;
 	let idadeAgnes = 49;
 	let idadeAmara = 50;
@@ -24,6 +34,11 @@
     document.write("<br>");
     document.write("Antony nasceu em " + (ano - 19));
     */
+		
+		document.write("Idade Agnes: " + idadeAgnes);
+		pula3Linha();
     document.write("A média da idade dos irmãos: " + mediaArredonda);
+		pula1Linha();
+		mostra("Teste");
 </script>
 	
