@@ -7,9 +7,20 @@
     let imc = peso/(altura*altura);
     return imc;
   }
-  //let peso = 57;
-  //let altura = 1.60;
-  //let imc = peso/(altura*altura);
-  let imc = calculaImc(57, 1.60);
-  document.write("Imc: "+ Math.round(imc));
+  let nome = prompt("Informe o seu nome: ");
+  let pesoInformado = prompt("informe o seu peso");
+  let alturaInformada = prompt("Informe a sua altura: ");
+
+  let pesoConvertido = parseFloat(pesoInformado);
+  let alturaConvertida = parseFloat(alturaInformada);
+
+  console.log(typeof pesoConvertido);
+  console.log(typeof alturaConvertida);
+
+  console.log(pesoConvertido);
+  console.log(alturaConvertida);
+  let imcCalculado = calculaImc(pesoConvertido, alturaConvertida);
+  console.log(imcCalculado);
+
+   document.write(nome + " seu IMC calculado é: "+ Math.round(imcCalculado))
 </script>
