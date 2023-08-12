@@ -1,0 +1,15 @@
+<!DOCTYPE html> <meta charset="UTF-8" />
+<script>
+  let vitorias = parseInt(prompt("Número de vitórias: "));
+  let empates = parseInt(prompt("Número de empates: "));
+  let totalDePontos = vitorias * 3 + empates;
+  if (totalDePontos > 28) {
+    document.write("Evoluindo");
+  }
+  if (totalDePontos == 28) {
+    document.write("Na mesma");
+  }
+  if (totalDePontos < 28) {
+    document.write("Piorando");
+  }
+</script>
