@@ -18,4 +18,3 @@ Exercício para treinar lógica e orientação a objetos.
 
 <https://dev.java/learn/creating-primitive-type-variables-in-your-programs/>
 
-### teste
