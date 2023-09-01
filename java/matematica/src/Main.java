@@ -1,12 +1,17 @@
 import algebra.Fatorial;
+import algebra.Termial;
 
 public class Main {
     public static void main(String[] args) {
-        Fatorial fatorial = new Fatorial();
-        int recebeRetorno = 0;
-        recebeRetorno = fatorial.calculaFatorial(6);
-        recebeRetorno = fatorial.calculaFatorial(0);
-        recebeRetorno = fatorial.calculaFatorial(1);
+//        int recebeRetornoFatorial = 0;
+//        Fatorial fatorial = new Fatorial();
+//        recebeRetornoFatorial = fatorial.calculaFatorial(6);
+//        recebeRetornoFatorial = fatorial.calculaFatorial(0);
+//        recebeRetornoFatorial = fatorial.calculaFatorial(1);
+
+        int recebeRetornoTermial = 0;
+        Termial termial = new Termial();
+        recebeRetornoTermial = termial.calculaTermial(6);
 
     }
 }
