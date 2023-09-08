@@ -1,4 +1,3 @@
-import algebra.Fatorial;
 import algebra.Termial;
 
 public class Main {
