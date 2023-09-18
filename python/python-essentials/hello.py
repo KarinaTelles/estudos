@@ -19,7 +19,10 @@ __version__ = "0.0.1"
 __author__ = "Karina Cardoso Telles"
 __license__ = "Unlicense"
 
-current_language = "en_US"
+import os
+
+#current_language = "en_US"
+current_language = os.getenv("LANG","en_US")[:5]
 msg = "Hello, World"
 
 if current_language == "pt_BR":
