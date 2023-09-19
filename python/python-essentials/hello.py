@@ -1,18 +1,17 @@
 #Estudando Python
 """
-Hello World multi idiomas
+******* Hello World multi idiomas*******
 
-O script exibe o idioma configurado no ambiente
+O script exibe o idioma configurado no ambiente.
 
 Tenha a variável LANG devidamente configurada. Exemplo:
 
-    export LANG=pt_BR
+    export LANG=pt_BR (Ou seu idioma de preferência).
 
     Execução:
-
     python3 hello.py
     ou
-    ./hello.py
+    ./hello.py (exige que o compilador default esteja configurado)
     
 """
 __version__ = "0.0.1"
