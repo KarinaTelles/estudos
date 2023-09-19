@@ -6,7 +6,7 @@ O script exibe o idioma configurado no ambiente.
 
 Tenha a variável LANG devidamente configurada. Exemplo:
 
-    export LANG=pt_BR (Ou seu idioma de preferência).
+    export LANG=pt_BR (ou seu idioma de preferência).
 
     Execução:
     python3 hello.py
@@ -22,7 +22,7 @@ import os
 """
 O Python tem uma biblioteca que busca dados do sistema operacional. 
 Se for buscado algo como os.getenv("LANG") uma variável de ambiente parecida com essa vai ser retornada:  en_US.UTF-8 
-Como o objetivo era apenas buscar o idioma, então será necessário trazer apenas os caracteres necessários 
+Como o objetivo era apenas buscar o idioma, então será necessário trazer apenas os caracteres antes do ".UTF-8"
 
 ***********************************************************************************************
 Exemplo buscando apenas os 5 primeiros caracteres da string:
