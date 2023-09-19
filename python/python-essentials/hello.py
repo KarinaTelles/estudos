@@ -22,20 +22,17 @@ __license__ = "Unlicense"
 import os
 """
 O Python tem uma biblioteca que busca dados do sistema operacional. 
-Se for buscado algo como os.getenv("LANG") o resultado vai ser uma variável de ambiente 
-como essa vai ser retornado:  en_US.UTF-8 
-O objetivo era apenas buscar o idioma, então é possível trazer apenas os caracteres que se quer 
-ou fazer um split e retornar a primeira posição do array.
+Se for buscado algo como os.getenv("LANG") uma variável de ambiente parecida com essa vai ser retornada:  en_US.UTF-8 
+Como o objetivo era apenas buscar o idioma, então será necessário trazer apenas os caracteres necessários 
 
 ***********************************************************************************************
-Exemplo buscando apenas os caracteres:
-(Trás apenas os 5 primeiros caracteres da string)
+Exemplo buscando apenas os 5 primeiros caracteres da string:
 
 os.getenv("LANG")[:5]
 
 ***********************************************************************************************
-Exemplo usando o split e retornando apenas a posição zero do agora array de 2 posições:
-(A string foi "partida" onde tinha um ponto e cada metade virou uma posição no array)
+Exemplo usando o split e retornando apenas a posição zero:
+(A string foi "partida" onde tinha um ponto e cada metade virou uma posição no array("0" e "1"))
 
 os.getenv("LANG").split(".")[0]
 
