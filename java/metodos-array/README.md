@@ -58,6 +58,4 @@ for (int i = 0; i < numeros.length; i++) {
 int[] copia = Arrays.copyOf(numeros, numeros.length);
 
 
-
-
 Estas são operações básicas em arrays em Java. Lembre-se de que, em Java, os arrays têm um tamanho fixo após a inicialização, então adicionar ou remover elementos geralmente envolve a criação de um novo array com o tamanho apropriado.
