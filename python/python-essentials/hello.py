@@ -1,4 +1,4 @@
-#Estudando Python
+Estudando Python
 """
 ******* Hello World multi idiomas*******
 
@@ -25,13 +25,13 @@ Se for buscado algo como os.getenv("LANG") uma variável de ambiente parecida co
 Como o objetivo era apenas buscar o idioma, então será necessário trazer apenas os caracteres antes do ".UTF-8"
 
 ***********************************************************************************************
-Exemplo buscando apenas os 5 primeiros caracteres da string:
+Exemplo buscando apenas os 5 primeiros caracteres da String:
 
 os.getenv("LANG")[:5]
 
 ***********************************************************************************************
 Exemplo usando o split e retornando apenas a posição zero:
-(A string foi "partida" onde tinha um ponto e cada metade virou uma posição no array("0" e "1"))
+(A String foi "partida" onde tinha um ponto e cada metade virou uma posição no array("0" e "1"))
 
 os.getenv("LANG").split(".")[0]
 
