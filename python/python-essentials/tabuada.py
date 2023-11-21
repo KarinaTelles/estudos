@@ -5,16 +5,16 @@ __version__ = "0.1.0"
 __author__ = "Karina Cardoso Telles"
 
 #Numeros base
-numeros = list(range(1,11))
-numeros_1_a_100 = list(range(1,101))
+range10 = list(range(1,11))
 
 #Iterable (percorríveis)
 
 #Para cada número em números:
 
-for numero in numeros:
-    print("Tabuada de 1 a 10 do ", numero)
-    for outro_numero in numeros:
-        print(numero,"*",outro_numero,"=", numero * outro_numero)
+for fatorMultiplicando in range10:
+    print("Multiplication table, 1 to 10: ",fatorMultiplicando)
+    for fatorMultiplicador in range10:
+        print(fatorMultiplicando,"*",fatorMultiplicador,"=", fatorMultiplicando * fatorMultiplicador)
         print("-----------")
+
 
