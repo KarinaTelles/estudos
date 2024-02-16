@@ -48,5 +48,9 @@ function goCave(){
 function fightDragon(){
   console.log("Fighting dragon.");
 }
-function buyHealth(){}
-function buyWeapon(){}
+function buyHealth(){
+  console.log("Buying health");
+}
+function buyWeapon(){
+  console.log("Buying weapon");
+}
