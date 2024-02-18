@@ -5,6 +5,7 @@ let currentWeapon = 0;
 let fighting;
 let monsterHealth;
 let inventory = ["stick"];
+
 const button1 = document.querySelector("#button1");
 const button2 = document.querySelector("#button2");
 const button3 = document.querySelector("#button3");
@@ -27,6 +28,12 @@ const locations = [
     "button text":["Buy 10 health (10 gold)","Buy weapon (30 gold)","Go to town square"],
     "button functions": [buyHealth, buyWeapon, goTown],
     text: "You enter the store."
+  },
+  {
+   name: "cave",
+   "button text": ["Fight slime","Fight fanged beast","Go to town square"],
+   "button functions": [fightSlime, fightBeast, goTown],
+   text:"You enter the cave. You see some monsters."
   }
 ];
 
@@ -42,24 +49,33 @@ function update(location) {
   button1.onclick = location["button functions"][0];
   button2.onclick = location["button functions"][1];
   button3.onclick = location["button functions"][2];
-  text.innerText = "You are in the town square. You see a sign that says \"Store.\"";
+  text.innerText = location.text;
 }
 
 function goTown() {
   update(locations[0]);
 }
 
-function goStore() {}
+function goStore() {
+  update(locations[1]);
+}
 
-function goCave(){
-  console.log("Going to cave.");
+function goCave() {
+  update(locations[2]);
 }
 function fightDragon(){
   console.log("Fighting dragon.");
 }
 function buyHealth(){
-  console.log("Buying health");
+  gold = gold - 10;
+  health = health + 10;
 }
 function buyWeapon(){
   console.log("Buying weapon");
+}
+function fightSlime(){
+
+}
+function fightBeast(){
+
 }
