@@ -97,7 +97,9 @@ function buyHealth() {
   }
 }
 function buyWeapon(){
-  console.log("Buying weapon");
+  if(gold >= 30){
+    gold -=30;
+  }
 }
 function fightSlime(){
 
