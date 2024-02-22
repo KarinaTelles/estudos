@@ -70,6 +70,12 @@ const locations = [
    "button text": ["Fight slime","Fight fanged beast","Go to town square"],
    "button functions": [fightSlime, fightBeast, goTown],
    text:"You enter the cave. You see some monsters."
+  } ,  
+  {
+    name: "fight",
+    "button text": [attack, dodge, goTown],
+    "button functions": [fightSlime, fightBeast, goTown],
+    text: "You are fighting a monster."
   }
 ];
 
@@ -151,11 +157,17 @@ function fightBeast() {
   fighting = 1;
   goFight();
 }
-
 function fightDragon() {
   fighting = 2;
   goFight();
 }
 function goFight(){
   
+}
+function attack() {
+
+}
+
+function dodge() {
+
 }
