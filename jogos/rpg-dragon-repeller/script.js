@@ -161,8 +161,11 @@ function fightDragon() {
   fighting = 2;
   goFight();
 }
-function goFight(){
-  
+function goFight() {
+  update(locations[3]);
+  monsterHealth = monsters[fighting].health;
+  const monsterStats = document.querySelector('#monsterStats');
+  monsterStats.style.display = 'block';
 }
 function attack() {
 
