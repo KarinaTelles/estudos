@@ -196,9 +196,9 @@ function attack() {
       defeatMonster();
     }
   }
-  if (Math.random() <= .1) {
+  if (Math.random() <= .1 && inventory.length !== 1) {
     text.innerText += " Your " + inventory.pop() + " breaks.";
-    currentWeapon --;
+    currentWeapon--;
   }
 }
 //This will set the monster's attack to five times their level minus a random number between 0 and the player's xp
@@ -244,5 +244,10 @@ function restart(){
   xpText.innerText = xp;
   goTown();
 }
-
+function easterEgg(){
+  update(locations[7]);
+}
+function pick(guess){
+  
+}
 
