@@ -259,7 +259,10 @@ function pickTwo() {
 function pickEight() {
   pick(8);
 }
-function pick(guess){
-  
+function pick(guess) {
+  const numbers = [];
+  while (numbers.length < 10) {
+    numbers.push(Math.floor(Math.random() * 11));
+  }
 }
 
