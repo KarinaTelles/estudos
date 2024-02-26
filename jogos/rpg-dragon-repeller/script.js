@@ -6,7 +6,7 @@ let fighting;
 let monsterHealth;
 let inventory = ["stick"];
 
-const button1 = document.querySelector("#button1");
+const button1 = document.querySelector('#button1');
 const button2 = document.querySelector("#button2");
 const button3 = document.querySelector("#button3");
 const text = document.querySelector("#text");
@@ -72,21 +72,21 @@ const locations = [
   },
   {
     name: "lose",
-    "button text": ["REPLAY?","REPLAY?","REPLAY?"],
-    "button functions":[restart,restart,restart],
-    text: "You die. &#x2620;"
-  }, 
-  {
-    name: "win",
     "button text": ["REPLAY?", "REPLAY?", "REPLAY?"],
     "button functions": [restart, restart, restart],
-    text: "You defeat the dragon! YOU WIN THE GAME! &#x1F389;"
+    text: "You die. &#x2620;"
   },
   { 
-    name: "easter egg", 
-    "button text": ["2", "8", "Go to town square?"], 
-    "button functions": [pickTwo, pickEight, goTown], 
-    text: "You find a secret game. Pick a number above. Ten numbers will be randomly chosen between 0 and 10. If the number you choose matches one of the random numbers, you win!" 
+    name: "win", 
+    "button text": ["REPLAY?", "REPLAY?", "REPLAY?"], 
+    "button functions": [restart, restart, restart], 
+    text: "You defeat the dragon! YOU WIN THE GAME! &#x1F389;" 
+  },
+  {
+    name: "easter egg",
+    "button text": ["2", "8", "Go to town square?"],
+    "button functions": [pickTwo, pickEight, goTown],
+    text: "You find a secret game. Pick a number above. Ten numbers will be randomly chosen between 0 and 10. If the number you choose matches one of the random numbers, you win!"
   }
 ];
 
@@ -175,13 +175,15 @@ function fightDragon() {
   fighting = 2;
   goFight();
 }
+
 function goFight() {
   update(locations[3]);
   monsterHealth = monsters[fighting].health;
   monsterStats.style.display = "block";
   monsterName.innerText = monsters[fighting].name;
-  monsterHealthText.innerText = monsters[fighting].health;
+  monsterHealthText.innerText = monsterHealth;
 }
+
 function attack() {
   text.innerText = "The " + monsters[fighting].name + " attacks.";
   text.innerText += " You attack it with your " + weapons[currentWeapon].name + ".";
@@ -207,25 +209,21 @@ function attack() {
     currentWeapon--;
   }
 }
-//This will set the monster's attack to five times their level minus a random number between 0 and the player's xp
+
 function getMonsterAttackValue(level) {
   const hit = (level * 5) - (Math.floor(Math.random() * xp));
   console.log(hit);
   return hit > 0 ? hit : 0;
 }
-function isMonsterHit() {
-  if(Math.random() > .2 || health < 20){
 
-    return Math.random() > .2 || health < 20;
-  }
- 
+function isMonsterHit() {
+  return Math.random() > .2 || health < 20;
 }
-function getMonsterAttackValue(level){ 
-  
-}
+
 function dodge() {
   text.innerText = "You dodge the attack from the " + monsters[fighting].name;
 }
+
 function defeatMonster() {
   gold += Math.floor(monsters[fighting].level * 6.7);
   xp += monsters[fighting].level;
@@ -233,13 +231,16 @@ function defeatMonster() {
   xpText.innerText = xp;
   update(locations[4]);
 }
+
 function lose() {
   update(locations[5]);
 }
+
 function winGame() {
   update(locations[6]);
 }
-function restart(){
+
+function restart() {
   xp = 0;
   health = 100;
   gold = 50;
@@ -250,15 +251,19 @@ function restart(){
   xpText.innerText = xp;
   goTown();
 }
-function easterEgg(){
+
+function easterEgg() {
   update(locations[7]);
 }
+
 function pickTwo() {
   pick(2);
 }
+
 function pickEight() {
   pick(8);
 }
+
 function pick(guess) {
   const numbers = [];
   while (numbers.length < 10) {
@@ -276,9 +281,8 @@ function pick(guess) {
     text.innerText += "Wrong! You lose 10 health!";
     health -= 10;
     healthText.innerText = health;
-    if(health<=0){
+    if (health <= 0) {
       lose();
     }
   }
 }
-
