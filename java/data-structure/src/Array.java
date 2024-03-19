@@ -2,7 +2,8 @@ import java.util.Arrays;
 
 public class Array {
     String twentyOneArray[] = new String[21];
-    String phantomsOfHighSeas[]={"Dead Men Tell No Tales", "The High Seas", "Edge of World", "Pirates", "The Gallows Jig", "Crossfire", "Oblivion"};
+    String phantomsOfHighSeas[]=
+            {"Dead Men Tell No Tales", "The High Seas", "Edge of World", "Pirates", "The Gallows Jig", "Crossfire", "Oblivion"};
     int[] numeros = new int[5];
     String[] nomes = new String[10];
     int numero = numeros[2]; // Acessa o terceiro elemento do vetor "numeros"
