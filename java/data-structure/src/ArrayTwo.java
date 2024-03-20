@@ -9,6 +9,7 @@ public class ArrayTwo {
     public void percorreArray(){
         List<Integer> itens = Arrays.asList(arrayPreDef);
         itens.forEach(System.out::println);
+        System.out.println("Bio == Ø.");
     }
 
 }
