@@ -17,7 +17,6 @@ public class BidimensionalArray {
                 matrizNumeros[i][j] = 0;
             }
         }
-
         String[][] matrizNomes = new String[2][5];
         for (int i = 0; i < matrizNomes.length; i++) {
             for (int j = 0; j < matrizNomes[i].length; j++) {
@@ -31,7 +30,6 @@ public class BidimensionalArray {
                 System.out.println(matrizNumeros[i][j]);
             }
         }
-
         for (String[] linha : matrizNomes) {
             for (String nome : linha) {
                 System.out.println(nome);
