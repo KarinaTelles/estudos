@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.List;
 
 public class Array {
     String twentyOneArray[] = new String[21];
@@ -9,6 +10,10 @@ public class Array {
     int three = 3;
     String karina = "Karina";
     String fouth = names[4];
+    int[] arrayDeInteiro;
+    int[] arrayDeVinte = new int[20];
+    Integer[] arrayPreDef = {1,2,3, 4, 5, 6, 7, 8,9,10};
+    int arraySize = arrayPreDef.length;
     public void fillArrayWithZero(){
         Arrays.fill(numbers, 0);
     }
@@ -37,4 +42,10 @@ public class Array {
             System.out.println(nm);
         }
     }
+    public void percorreArray(){
+        List<Integer> itens = Arrays.asList(arrayPreDef);
+        itens.forEach(System.out::println);
+        System.out.println("Bio == Ø.");
+    }
+
 }
