@@ -10,12 +10,9 @@ public class Main {
 //        array.loopArrayString();
         StackOfInteger stackOfInteger = new StackOfInteger();
         System.out.println("********************************");
-        stackOfInteger.pushFromStack(1);
-        stackOfInteger.pushFromStack(2);
-        stackOfInteger.pushFromStack(3);
-        stackOfInteger.pushFromStack(4);
-        stackOfInteger.pushFromStack(5);
-        stackOfInteger.pushFromStack(6);
+            for (int i = 0; i<100;i++){
+                stackOfInteger.pushFromStack(1 + i);
+            }
         stackOfInteger.printStack();
         System.out.println("********************************");
         stackOfInteger.popFromStack();
