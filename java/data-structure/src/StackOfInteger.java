@@ -1,5 +1,4 @@
 import java.util.Stack;
-import java.util.Vector;
 
 public class StackOfInteger{
     Stack<Integer> stack = new Stack<>();
