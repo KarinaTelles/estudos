@@ -8,12 +8,12 @@ public class Array {
     int[] numbers = new int[5];
     int three = 3;
     String karina = "Karina";
-    String nome = names[4]; // Acessa o quinto elemento do vetor "nomes"
+    String fouth = names[4];
     public void fillArrayWithZero(){
-        Arrays.fill(numbers, 0); // Atribui o valor 0 a todos os elementos
+        Arrays.fill(numbers, 0);
     }
     public void fillArrayWithBlank(){
-        Arrays.fill(names, " "); // Atribui a string vazia a todos os elementos
+        Arrays.fill(names, " ");
     }
     public void loopArrayHighSeas(){
         for (int i = 0; i < phantomsOfHighSeas.length; i++) {
@@ -37,5 +37,4 @@ public class Array {
             System.out.println(nm);
         }
     }
-
 }
