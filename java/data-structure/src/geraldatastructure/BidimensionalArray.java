@@ -1,3 +1,5 @@
+package geraldatastructure;
+
 public class BidimensionalArray {
     //tipo_de_dado nome_da_matriz[][] = new tipo_de_dado[linhas][colunas];
     //Exemplo:
