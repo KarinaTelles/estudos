@@ -13,6 +13,7 @@ public class Main {
             for (int i = 0; i<100;i++){
                 stackOfInteger.pushFromStack(1 + i);
                 //stupid git credencials
+                //teste maroto
             }
         stackOfInteger.printStack();
         System.out.println("********************************");
