@@ -6,6 +6,9 @@ public class Main {
     public static void main(String[] args) {
         QueueImplementation queue = new QueueImplementation();
         queue.addElements();
-        queue.removeElement();
+//        queue.removeElement();
+        queue.offerElements();
+        queue.retrievesBeginning();
+        queue.pollElement();
     }
 }

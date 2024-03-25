@@ -21,6 +21,7 @@ public class QueueImplementation{
         queue.offer("Honey");
         queue.offer("Oat Milk");
         queue.offer("Coconut Milk");
+        printQueue();
     }
     public void removeElement(){
         String result;
@@ -33,20 +34,21 @@ public class QueueImplementation{
             System.out.println("This queue is empty");
         }
     }
-    public void poll(){
+    public void pollElement(){
         String result;
-        if(queue.poll()==null){
+        if(queue.element()==null){
             System.out.println("This queue is empty");
         }
         else{
-            result=queue.poll();
+            result = queue.element();
             System.out.println(result +" erased");
+            result=queue.poll();
         }
     }
     public void retrievesBeginning(){
         String result;
         try{
-            System.out.println("Retrieves beginning of the queue, but does not remove");
+            System.out.println("***Retrieves beginning of the queue, but does not remove***");
             result = queue.element();
             System.out.println("Head of queue: " + result);
         }catch (NoSuchElementException e){
