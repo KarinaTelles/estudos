@@ -2,18 +2,19 @@
   margin: 0;
   padding: 0;
 }
+body{
+  box-sizing: border-box;
+  height: 100vh;
+  background-color:rgba(0, 0, 0, 0.967);
+}
 #text{
-  color: rgba(0, 0, 0, 0.698);
+  color: rgba(255, 255, 255, 0.893);
 }
 #blog-title{
-  color: rgba(149, 4, 4, 0.636);
+  color: rgba(255, 255, 255, 0.893);
 }
 strong{
-  color: #b2967d;
-}
-body{
-  background-color:#feeafa;
-  height: 100vh;
+  color: rgb(40, 97, 220);
 }
 img{
   border: 10px #dee2ff;
