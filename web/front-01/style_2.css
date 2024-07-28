@@ -7,7 +7,7 @@ body{
   height: 100vh;
   background-color:rgba(0, 0, 0, 0.967);
 }
-#text{
+.text{
   color: rgba(255, 255, 255, 0.893);
 }
 #blog-title{
@@ -17,8 +17,11 @@ strong{
   color: rgb(40, 97, 220);
 }
 img{
-  border: 10px #dee2ff;
+  border: 10px #a8b0ed;
   border-style: double;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
 }
 
 
