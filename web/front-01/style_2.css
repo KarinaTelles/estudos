@@ -18,9 +18,10 @@ strong{
 }
 img{
   border: 10px #a8b0ed;
+  border-radius: 12px;
   border-style: double;
   box-sizing: border-box;
-  width: 100%;
+  width: 35%;
   padding: 10px;
 }
 
