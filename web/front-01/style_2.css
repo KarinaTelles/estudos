@@ -8,8 +8,10 @@ body{
   background-color:rgba(0, 0, 0, 0.967);
 }
 .presentation{
+  margin: 15%;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .text{
   color: rgba(255, 255, 255, 0.893);
@@ -25,7 +27,7 @@ img{
   border-radius: 12px;
   border-style: double;
   box-sizing: border-box;
-  width: 35%;
+  width: 25%;
   padding: 10px;
 }
 
