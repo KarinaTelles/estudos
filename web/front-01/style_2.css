@@ -7,6 +7,10 @@ body{
   height: 100vh;
   background-color:rgba(0, 0, 0, 0.967);
 }
+.presentation{
+  display: flex;
+  align-items: center;
+}
 .text{
   color: rgba(255, 255, 255, 0.893);
 }
