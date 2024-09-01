@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
+.header{
+    padding: 2% 0% 0% 15%;
+}
+.header__menu{
+    display: flex;
+    gap: 80px;
+}
+.header__menu__links{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600px;
+    color: #22D4FD;
+    text-decoration: none;
+}
 *{
     margin: 0;
     padding: 0;
@@ -17,7 +31,7 @@ body{
 }
 
 .apresentacao{
-    margin: 8% 15%;
+    margin: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
