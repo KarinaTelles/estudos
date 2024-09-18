@@ -110,5 +110,8 @@ body{
     }
     .apresentacao{
         flex-direction: column-reverse;
+        padding: 5%;
+        width: auto;
     }
+    /* .apresentação__conteudo{ width: 100%; } */
 }
