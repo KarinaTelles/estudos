@@ -54,3 +54,9 @@ body{
 .container__caixa{
   margin: 0 6em;
 }
+.segundario__imagem{
+  width: 80%;
+}
+.secundario{
+  align-items: center;
+}
