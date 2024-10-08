@@ -73,7 +73,8 @@ body{
 .descricao__titulo{
   font-size: var(--font-size-42px);
   font-weight: 700;
+  margin-bottom: 0.1em;
 }
-.descricao__subtitulo{
+.descricao__texto{
   color: var(--cinza-segundario);
 }
