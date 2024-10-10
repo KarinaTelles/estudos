@@ -88,10 +88,11 @@ body{
 .dispositivos__lista{
   display: flex;
   justify-content: center;
+  list-style-type: none;
 }
 .dispositivos__titulo{
-
+  color: var(--branco-principal);
 }
 .lista_itens{
-
+  color: var(--branco-principal);
 }
