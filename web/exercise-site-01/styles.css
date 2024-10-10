@@ -10,6 +10,8 @@
   --font-size-16px:1em;
   --font-size-12px:0.75em;
   --font-size-28px:1.75em;
+  --font-size-48px:3em;
+  --font-size-32px:2em;
 }
 body{
   background-color: var(--cor-de-fundo);
@@ -92,7 +94,9 @@ body{
 }
 .dispositivos__titulo{
   color: var(--branco-principal);
+  font-size: var(--font-size-48px);
 }
 .lista_itens{
   color: var(--branco-principal);
+  font-size: var(--font-size-32px);
 }
