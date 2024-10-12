@@ -102,24 +102,27 @@ body{
   font-size: var(--font-size-32px);
 }
 footer{
-
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 5em 0;
 }
 .footer__logo{
-
+  width: 5%;
+}
+.footer__lista{
+  display: flex;
+  flex-direction: row;
 }
 .footer__lista_item{
-  
-}
-/* .container__ultimo{
-  display: flex;
-  justify-content: center;
-}
-.ultimo__lista{
-  display: flex;
-  justify-content: center;
   list-style-type: none;
+  margin: 2em 0;
 }
-.ultimo__lista_item{
+.footer__lista_item_link{
+  text-decoration: none;
   color: var(--branco-principal);
-  font-size: var(--font-size-16px);
-} */
+  margin: 0 0.5em;
+}
+.footer__texto{
+  margin: 0.8em 5em;
+}
