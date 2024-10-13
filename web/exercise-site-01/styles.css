@@ -114,6 +114,22 @@ footer{
   display: flex;
   flex-direction: row;
 }
+.footer__lista a:link{
+  color: var(--branco-principal);
+  margin: 0 0.5em;
+}
+.footer__lista a:visited{
+  color: var(--branco-principal);
+  margin: 0 0.5em;
+}
+.footer__lista a:hover{
+  color: hotpink;
+  margin: 0 0.5em;
+}
+.footer__lista a:active{
+  color: blue;
+  margin: 0 0.5em;
+}
 .footer__lista_item{
   list-style-type: none;
   margin: 2em 0;
@@ -123,6 +139,7 @@ footer{
   color: var(--branco-principal);
   margin: 0 0.5em;
 }
+
 .footer__texto{
   margin: 0.8em 5em;
 }
