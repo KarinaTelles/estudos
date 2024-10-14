@@ -144,6 +144,3 @@ footer{
 .footer__texto{
   margin: 0.8em 5em;
 }
-container__botao:hover{
-  background-color: var(--botao-azul-efeito);
-}
