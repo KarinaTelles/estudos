@@ -55,9 +55,6 @@ body{
   text-decoration: none;
   margin-bottom: 1em;
 }
-container__botao:hover{
-  background-color: var(--botao-azul-efeito);
-}
 .botao_segundario{
   background-color: transparent;
   border: 2px solid var(--branco-principal);
@@ -146,4 +143,7 @@ footer{
 
 .footer__texto{
   margin: 0.8em 5em;
+}
+container__botao:hover{
+  background-color: var(--botao-azul-efeito);
 }
