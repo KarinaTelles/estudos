@@ -49,6 +49,23 @@ img{
   display: block;
   width: 100%;
 }
+.nav{
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--bold-blue);
+  z-index:10;
+  padding: 1em;
+}
+.nav-list{
+  display: flex;
+  flex-direction: row;
+  margin-right: 2rem;
+  gap: 1em;
+}
 #welcome-section{
   display: flex;
   flex-direction: column;
@@ -75,20 +92,27 @@ img{
   padding: 2rem;
   margin: auto 0;
 }
-.nav{
-  display: flex;
-  justify-content: flex-end;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: var(--bold-blue);
-  z-index:10;
-  padding: 1em;
+.projects-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1rem;
+  width: 98%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
 }
-.nav-list{
-  display: flex;
-  flex-direction: row;
-  margin-right: 2rem;
-  gap: 1em;
+.project-tile{
+  border: 2px solid var(--bold-blue);
+}
+@media(max-width:29rem){
+  html {
+    font-size: 55%;
+  }
+  .nav {
+    justify-content: center;
+  }
+
+  .nav-list {
+    margin: 0 1rem;
+  }
 }
