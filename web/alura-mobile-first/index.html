@@ -9,7 +9,26 @@
   <body>
     <header class="cabecalho">
       <div class="container">
-        <span class="cabecalho__menu-hamburguer container__imagem"></span>
+        <input type="checkbox" id="menu" class="container__botao" />
+        <label for="menu">
+          <span class="cabecalho__menu-hamburguer container__imagem"></span>
+        </label>
+        <ul class="lista-menu">
+          <li id="lista-menu__titulo">Categorias</li>
+          <li id="lista-menu__item">
+            <a href="#" class="lista-menu__link">Programação</a>
+          </li>
+          <li><a href="#" class="lista-menu__link">Front-End</a></li>
+          <li>
+            <a href="#" class="lista-menu__link">Infraestrutura</a>
+          </li>
+          <li>
+            <a href="#" class="lista-menu__link">Business</a>
+          </li>
+          <li>
+            <a href="#" class="lista-menu__link">Design & Ux</a>
+          </li>
+        </ul>
         <img src="img/Icone_logo.svg" alt="logo" class="container__imagem" />
       </div>
       <div class="container">
