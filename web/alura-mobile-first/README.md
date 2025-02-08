@@ -1,3 +1,3 @@
 *HTML
 *CSS
-*SWIPER JS
+*SwiperJS
