@@ -83,6 +83,8 @@
             />
           </div>
           <div class="swiper-slide">
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
             <img src="img/Angular.svg" alt="Livro sobre Angular" />
           </div>
           <div class="swiper-slide">
@@ -126,8 +128,6 @@
           </div>
           ...
         </div>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
 
         <!-- If we need navigation buttons -->
         <div class="swiper-button-prev"></div>
@@ -142,9 +142,15 @@
       const swiper = new Swiper(".swiper", {
         spaceBetween: 10,
         slidesPerView: 3,
-        autoplay: {
-          delay: 5000,
-        },
+        bulletActiveClass: "swiper-pagination-bullet-active",
+        bulletClass: "swiper-pagination-bullet",
+        bulletElement: "span",
+        clickable: true,
+        clickableClass: "swiper-pagination-clickable",
+        currentClass: "swiper-pagination-current",
+        dynamicBullets: true,
+        dynamicMainBullets: 1,
+        el: null,
       });
     </script>
   </body>
