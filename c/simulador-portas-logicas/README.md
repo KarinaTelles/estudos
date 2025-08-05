@@ -14,3 +14,5 @@ XNOR (Equivalência) → !(A ^ B) → É 1 se A e B forem iguais.
 
 
 gcc simulador_portas.c -o simulador_portas.exe
+.\simulador_portas.exe
+
