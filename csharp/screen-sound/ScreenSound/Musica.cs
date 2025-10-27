@@ -1,25 +1,38 @@
-﻿class Musica
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ScreenSound
 {
-    public string nome;
-    public string artista;
-    public int duracao;
-    public bool disponivel;
-
-
-    public void ExibirFichaTecnica()
+    public class Musica
     {
-        Console.WriteLine($"Nome: {nome}");
-        Console.WriteLine($"Artista: {artista}");
-        Console.WriteLine($"Duração: {duracao} segundos");
+        public string nome;
+        public string artista;
+        public int duracao;
+        public bool disponivel;
 
-        if (disponivel)
+        public void ExibirFichaTecnica()
         {
-            Console.WriteLine("Disponível para streaming");
+            Console.WriteLine($"Nome: {nome}");
+            Console.WriteLine($"Artista: {artista}");
+            Console.WriteLine($"Duração: {duracao} segundos");
+
+            if (disponivel)
+            {
+                Console.WriteLine("Disponível para streaming");
+            }
+            else
+            {
+                Console.Write("Indisponível para streamings");
+            }
+            Console.WriteLine("\n");
         }
-        else
+        public void ExibirNomeEArtista()
         {
-            Console.Write("Indisponível para streamings");
+            Console.WriteLine($"Nome: {nome} - Artista: {artista}");
         }
+
     }
 }
-
