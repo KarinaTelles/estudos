@@ -12,13 +12,7 @@ namespace ScreenSound
         public string Artista { get; set; } = string.Empty;
         public int Duracao { get; set; }
         public bool Disponivel { get; set; }
-        public string NomeComArtista 
-        {
-            get
-            {
-                return $"{Nome} - {Artista}";
-            }
-        }
+        public string NomeComArtista => $"{Nome} - {Artista}";
         public void ExibirFichaTecnica()
         {
             Console.WriteLine(NomeComArtista);
