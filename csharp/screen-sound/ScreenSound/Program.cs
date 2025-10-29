@@ -19,7 +19,7 @@ public class Program
         musica1.ExibirFichaTecnica();
         musica2.ExibirFichaTecnica();
 
-        musica1.ExibirNomeEArtista();
-        musica2.ExibirNomeEArtista();
+        //musica1.ExibirNomeEArtista();
+        //musica2.ExibirNomeEArtista();
     }
 }

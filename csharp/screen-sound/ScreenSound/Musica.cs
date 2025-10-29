@@ -8,13 +8,21 @@ namespace ScreenSound
 {
     public class Musica
     {
-        public string Nome { get; set; }
-        public string Artista { get; set; }
+        public string Nome { get; set; } = string.Empty;
+        public string Artista { get; set; } = string.Empty;
         public int Duracao { get; set; }
         public bool Disponivel { get; set; }
+        public string NomeComArtista 
+        {
+            get
+            {
+                return $"{Nome} - {Artista}";
+            }
+        }
         public void ExibirFichaTecnica()
         {
-            Console.WriteLine($"Nome: {Nome}");
+            Console.WriteLine(NomeComArtista);
+            Console.WriteLine($"Nome da música: {Nome}");
             Console.WriteLine($"Artista: {Artista}");
             Console.WriteLine($"Duração: {Duracao} segundos");
 
@@ -28,10 +36,10 @@ namespace ScreenSound
             }
             Console.WriteLine("\n");
         }
-        public void ExibirNomeEArtista()
-        {
-            Console.WriteLine($"Nome: {Nome} - Artista: {Artista}");
-        }
+        //public void ExibirNomeEArtista()
+        //{
+        //    Console.WriteLine($"Nome: {Nome} - Artista: {Artista}");
+        //}
 
     }
 }
