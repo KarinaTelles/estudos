@@ -47,28 +47,24 @@ namespace ScreenSound
             }
             else
             {
-                var sbp = new StringBuilder();
-                foreach (var num in numerosPares)
-                {
-                    if (sbp.Length > 0)
-                    {
-                        sbp.Append(", ");
-                    }
-                    sbp.Append(num);
-                }
-
-                Console.WriteLine($"Números pares: {sbp}");
+                String a = StringBuilderAssistance(numerosPares);
+                Console.WriteLine($"Números pares: {a}");
             }
-            var sbi = new StringBuilder();
+            String b = StringBuilderAssistance(numeros);
+            Console.WriteLine($"Números originais: {b}");
+        }
+        public String StringBuilderAssistance(List<int> numeros)
+        {
+            var sb = new StringBuilder();
             foreach (var num in numeros)
             {
-                if (sbi.Length > 0)
+                if (sb.Length > 0)
                 {
-                    sbi.Append(", ");
+                    sb.Append(", ");
                 }
-                sbi.Append(num);
+                sb.Append(num);
             }
-            Console.WriteLine($"Números originais: {sbi}");
+            return sb.ToString();
         }
     }
 }
