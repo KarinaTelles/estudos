@@ -30,10 +30,10 @@ namespace ScreenSound
             }
             Console.WriteLine("\n");
         }
-        //public void ExibirNomeEArtista()
-        //{
-        //    Console.WriteLine($"Nome: {Nome} - Artista: {Artista}");
-        //}
 
+        public List<int> BuscarNumerosQueSaoPares(List<int> numero)
+        {
+            return numero.Where(n => n % 2 == 0).ToList();
+        }
     }
 }
