@@ -35,5 +35,40 @@ namespace ScreenSound
         {
             return numero.Where(n => n % 2 == 0).ToList();
         }
+        public void ImprimeNumeros()
+        {
+            List<int> numeros = new List<int> { 1, 2, 3, 4, 5, 6, 8, 9, 10 };
+            List<int> numerosPares;
+            numerosPares = BuscarNumerosQueSaoPares(numeros);
+            if (numerosPares is null || numerosPares.Count == 0)
+            {
+                Console.WriteLine("Nenhum número par encontrado.");
+                return;
+            }
+            else
+            {
+                var sbp = new StringBuilder();
+                foreach (var num in numerosPares)
+                {
+                    if (sbp.Length > 0)
+                    {
+                        sbp.Append(", ");
+                    }
+                    sbp.Append(num);
+                }
+
+                Console.WriteLine($"Números pares: {sbp}");
+            }
+            var sbi = new StringBuilder();
+            foreach (var num in numeros)
+            {
+                if (sbi.Length > 0)
+                {
+                    sbi.Append(", ");
+                }
+                sbi.Append(num);
+            }
+            Console.WriteLine($"Números originais: {sbi}");
+        }
     }
 }
