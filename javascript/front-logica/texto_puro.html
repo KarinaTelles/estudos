@@ -1,0 +1,44 @@
+<meta charset="UTF-8">
+<h1>Texto puro </h1>
+
+<script>
+	function pula1Linha(){
+		document.write("<br></br>")
+	}
+	function pula2Linha(){
+		document.write("<br></br><br></br>")
+	}
+	function pula3Linha(){
+		document.write("<br></br><br></br><br></br>")
+	}
+	function mostra(texto){
+		document.write(texto);
+		pula1Linha();
+	}
+	let ano = 2023;
+	let idadeAgnes = 49;
+	let idadeAmara = 50;
+	let idadeAntony = 19;
+	let mediaIdadeIrmãos = (idadeAgnes + idadeAmara + idadeAntony)/3;
+	let mediaArredonda = Math.round(mediaIdadeIrmãos);
+
+	/*
+	alert("teste");
+	document.write("Eu acertei na prova: " + ((15/50)*100) + "%");
+	document.write("<br>");
+	document.write("A" + "B" + 20 + 10 + "C" + (5 + 10));
+	document.write("<br>");
+	document.write("Agnes nasceu em " + (ano - 49));
+    document.write("<br>");
+    document.write("Amara nasceu em " + (ano - 50));
+    document.write("<br>");
+    document.write("Antony nasceu em " + (ano - 19));
+    */
+		
+		document.write("Idade Agnes: " + idadeAgnes);
+		pula3Linha();
+    document.write("A média da idade dos irmãos: " + mediaArredonda);
+		pula1Linha();
+		mostra("Teste");
+</script>
+	

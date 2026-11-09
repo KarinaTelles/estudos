@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+<script>
+  function pula1Linha(){
+		document.write("<br></br>")
+	}
+  function calculaImc(peso, altura){
+    let imc = peso/(altura*altura);
+    return imc;
+  }
+  let nome = prompt("Informe o seu nome: ");
+  let pesoInformado = prompt("informe o seu peso");
+  let alturaInformada = prompt("Informe a sua altura: ");
+
+  let pesoConvertido = parseFloat(pesoInformado);
+  let alturaConvertida = parseFloat(alturaInformada);
+
+  console.log(typeof pesoConvertido);
+  console.log(typeof alturaConvertida);
+
+  console.log(pesoConvertido);
+  console.log(alturaConvertida);
+  let imcCalculado = calculaImc(pesoConvertido, alturaConvertida);
+  console.log(imcCalculado);
+
+   document.write(nome + " seu IMC calculado é: "+ Math.round(imcCalculado))
+</script>

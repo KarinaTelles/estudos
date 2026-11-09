@@ -1,0 +1,14 @@
+<!DOCTYPE html> <meta charset="UTF-8" />
+<script>
+  function a(texto) {
+    return "(" + texto + ")";
+  }
+  function b(texto) {
+    return "@" + texto + "@";
+  }
+  function c(nome, sobrenome) {
+    return b(nome + " " + a(sobrenome));
+  }
+  let resultado = c("Flávio", "Almeida");
+  document.write(resultado);
+</script>
