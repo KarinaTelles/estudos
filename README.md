@@ -75,7 +75,6 @@ Para publicar, em Settings > Pages do repositório escolha "GitHub Actions" como
 | `web/bootstrap-css` | Página curta de teste de CSS, com o Bootstrap instalado pelo npm. | js |
 | `web/materializecss-mrcs-adv` | Exercício com o Materialize CSS. | materializecss-exercise-mrcs-adv |
 | `web/registration-form` | Formulário de cadastro do freeCodeCamp. | RegistrationForm |
-| `web/react-static-starter` | Cópia do template básico do React-Static; os commits são do autor do template, não meus. | react-static-starter |
 | `web/site-hugo-papermod` | Teste do gerador de sites Hugo com o tema PaperMod; o tema não veio junto. | siteHugo-PaperMod |
 | **jogos/** | | |
 | `jogos/rpg-dragon-repeller` | RPG em JavaScript do freeCodeCamp. | FREE_CODE_CAMP__EXERCISE_RPG_DRAGON_REPELLER |
