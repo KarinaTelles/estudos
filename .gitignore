@@ -1,0 +1,18 @@
+# Compilados e artefatos de build
+*.class
+*.pyc
+__pycache__/
+*.dll
+*.pdb
+*.exe
+bin/
+obj/
+out/
+target/
+.vs/
+.idea/
+node_modules/
+*~
+.hugo_build.lock
+# Pages montado localmente
+_site/
